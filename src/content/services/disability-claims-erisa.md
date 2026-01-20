@@ -1,11 +1,11 @@
 ---
 title: "Disability Claims governed by an employee benefit plan (ERISA)"
-shortDescription: "Legal representation for individuals denied disability benefits under employee benefit plans"
-image: "https://plus.unsplash.com/premium_photo-1661315485321-8e0310da42d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8bGVnYWwlMjBjb25zdWx0YXRpb24lMjBtZWV0aW5nfGVufDB8MHx8fDE3Njg5NDE1OTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+shortDescription: "Representation for individuals who have been denied disability benefits governed by an employee disability plan"
+image: "https://plus.unsplash.com/premium_photo-1674727219372-4ba6644106bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8bGF3JTIwbGlicmFyeSUyMGJvb2tzfGVufDB8MHx8fDE3Njg5NDg3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
 
 
 
 order: 1
 ---
 
-Represents individuals who have been denied disability benefits governed by an employee disability plan
+Representation for individuals who have been denied disability benefits governed by an employee disability plan

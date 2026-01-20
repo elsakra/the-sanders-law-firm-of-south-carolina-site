@@ -6,11 +6,25 @@ import siteData from '@/data/site.json';
 interface Props {
   title?: string;
   description?: string;
+  lightHero?: boolean;
 }
 
-const { title, description } = Astro.props;
+const { title, description, lightHero = false } = Astro.props;
 const pageTitle = title ? `${title} | ${siteData.company.name}` : siteData.seo.title;
 const pageDescription = description || siteData.seo.description;
+
+// Extract brand color (defaults to navy for professional services)
+const primaryColor = siteData.branding?.primaryColor || '#1e3a5f';
+// Generate color shades from the primary color
+const hexToRgb = (hex: string) => {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : { r: 30, g: 58, b: 95 };
+};
+const rgb = hexToRgb(primaryColor);
 ---
 
 <!DOCTYPE html>
@@ -21,10 +35,10 @@ const pageDescription = description || siteData.seo.description;
     <meta name="description" content={pageDescription} />
     <title>{pageTitle}</title>
     
-    <!-- Fonts -->
+    <!-- Fonts: Playfair Display for headlines, Inter for body -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
     
     <!-- Favicon - use logo if it's a CDN URL, otherwise fallback to static -->
     {siteData.branding?.logo?.includes('cloudinary') || siteData.branding?.logo?.includes('http') ? (
@@ -32,9 +46,20 @@ const pageDescription = description || siteData.seo.description;
     ) : (
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     )}
+    
+    <!-- Dynamic brand colors from site.json -->
+    <style define:vars={{ 
+      'brand-primary': primaryColor,
+      'brand-rgb': `${rgb.r}, ${rgb.g}, ${rgb.b}`
+    }}>
+      :root {
+        --brand-primary: var(--brand-primary);
+        --brand-rgb: var(--brand-rgb);
+      }
+    </style>
   </head>
-  <body class="bg-[#070A12] text-white font-body antialiased">
-    <Header />
+  <body class="bg-white text-neutral-900 font-body antialiased">
+    <Header lightHero={lightHero} />
     <main>
       <slot />
     </main>
@@ -57,10 +82,16 @@ const pageDescription = description || siteData.seo.description;
   }
   
   .font-display {
-    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-family: 'Playfair Display', Georgia, serif;
   }
   
   .font-body {
     font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  /* Selection color - navy blue */
+  ::selection {
+    background-color: rgba(30, 58, 95, 0.2);
+    color: #18181B;
   }
 </style>
