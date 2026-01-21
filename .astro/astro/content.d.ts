@@ -239,16 +239,16 @@ declare module 'astro:content' {
   collection: "testimonials";
   data: InferEntrySchema<"testimonials">
 } & { render(): Render[".md"] };
-"jeffrey-l-minch.md": {
-	id: "jeffrey-l-minch.md";
-  slug: "jeffrey-l-minch";
+"jb-holdings.md": {
+	id: "jb-holdings.md";
+  slug: "jb-holdings";
   body: string;
   collection: "testimonials";
   data: InferEntrySchema<"testimonials">
 } & { render(): Render[".md"] };
-"jennifer-randall-collins.md": {
-	id: "jennifer-randall-collins.md";
-  slug: "jennifer-randall-collins";
+"littlefield-corporation.md": {
+	id: "littlefield-corporation.md";
+  slug: "littlefield-corporation";
   body: string;
   collection: "testimonials";
   data: InferEntrySchema<"testimonials">
