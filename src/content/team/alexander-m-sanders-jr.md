@@ -1,6 +1,7 @@
 ---
 name: "Alexander M. Sanders, Jr."
 role: "Trial and Appellate Lawyer"
+image: "https://res.cloudinary.com/dil14r8je/image/upload/v1768920790/auto-site-builder/The%20Sanders%20Law%20Firm%20of%20South%20Carolina/image_0.png"
 order: 1
 ---
 

@@ -15,7 +15,7 @@
   },
   "hero": {
     "headline": "The Sanders Law Firm of South Carolina LLC",
-    "subheadline": "76+ Years of Combined Legal Experience Helping Individuals and Businesses Navigate the Justice System",
+    "subheadline": "76+ Years of combined legal experience helping individuals and businesses navigate the justice system",
     "cta": {
       "label": "Contact Us",
       "href": "/contact"
@@ -31,15 +31,15 @@
       "values": [
         {
           "title": "76+ Years Combined Experience",
-          "description": "Father-daughter team with extensive legal expertise"
+          "description": "Father-daughter legal team with extensive trial and appellate experience"
         },
         {
           "title": "Diverse Practice Areas",
           "description": "Criminal defense, civil litigation, business law, and regulatory matters"
         },
         {
-          "title": "High-Profile Experience",
-          "description": "Represented notable clients and appeared before Supreme Court"
+          "title": "High-Profile Representation",
+          "description": "Representing individuals, businesses, and notable public figures"
         }
       ]
     },
@@ -61,6 +61,10 @@
       {
         "label": "About",
         "href": "/about"
+      },
+      {
+        "label": "Team",
+        "href": "/team"
       },
       {
         "label": "Contact",
