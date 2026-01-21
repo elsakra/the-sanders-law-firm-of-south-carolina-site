@@ -215,52 +215,22 @@ declare module 'astro:content' {
   data: InferEntrySchema<"services">
 } & { render(): Render[".md"] };
 };
-"team": {
-"alexander-m-sanders-jr.md": {
-	id: "alexander-m-sanders-jr.md";
-  slug: "alexander-m-sanders-jr";
+"team": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
-} & { render(): Render[".md"] };
-"zoe-c-sanders.md": {
-	id: "zoe-c-sanders.md";
-  slug: "zoe-c-sanders";
-  body: string;
-  collection: "team";
-  data: InferEntrySchema<"team">
-} & { render(): Render[".md"] };
-};
-"testimonials": {
-"criminal-client.md": {
-	id: "criminal-client.md";
-  slug: "criminal-client";
+  data: InferEntrySchema<"team">;
+  render(): Render[".md"];
+}>;
+"testimonials": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "testimonials";
-  data: InferEntrySchema<"testimonials">
-} & { render(): Render[".md"] };
-"jeffrey-l-minch.md": {
-	id: "jeffrey-l-minch.md";
-  slug: "jeffrey-l-minch";
-  body: string;
-  collection: "testimonials";
-  data: InferEntrySchema<"testimonials">
-} & { render(): Render[".md"] };
-"jennifer-randall-collins.md": {
-	id: "jennifer-randall-collins.md";
-  slug: "jennifer-randall-collins";
-  body: string;
-  collection: "testimonials";
-  data: InferEntrySchema<"testimonials">
-} & { render(): Render[".md"] };
-"stephen-colbert.md": {
-	id: "stephen-colbert.md";
-  slug: "stephen-colbert";
-  body: string;
-  collection: "testimonials";
-  data: InferEntrySchema<"testimonials">
-} & { render(): Render[".md"] };
-};
+  data: InferEntrySchema<"testimonials">;
+  render(): Render[".md"];
+}>;
 
 	};
 

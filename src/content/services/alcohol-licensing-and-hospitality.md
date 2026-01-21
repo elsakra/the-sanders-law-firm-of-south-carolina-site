@@ -1,11 +1,11 @@
 ---
 title: "Alcohol licensing and Hospitality"
-shortDescription: "Alcohol licensing and hospitality services for restaurants, bars, and corporations"
-image: "https://images.unsplash.com/photo-1701790646175-570c00bbe969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bGF3JTIwb2ZmaWNlJTIwaW50ZXJpb3IlMjBwcm9mZXNzaW9uYWx8ZW58MHwwfHx8MTc2OTAxMTk0MHww&ixlib=rb-4.1.0&q=80&w=1080"
+shortDescription: "Alcohol licensing and hospitality services for restaurants, bars, and other establishments"
+image: "https://images.unsplash.com/photo-1672917187338-7f81ecac3d3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8bGVnYWwlMjBjb25zdWx0YXRpb24lMjBtZWV0aW5nfGVufDB8MHx8fDE3Njg5NDE1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
 
 
 
 order: 5
 ---
 
-Represents nationwide corporations in the areas of food and beverage and hospitality licensing, including supermarkets, resorts, restaurants and bars in alcohol related matters including licensing, dram shop liability, liability insurance, employee training
+Representation of supermarkets, resorts, restaurants and bars in alcohol related matters including licensing, dram shop liability, liability insurance, employee training
