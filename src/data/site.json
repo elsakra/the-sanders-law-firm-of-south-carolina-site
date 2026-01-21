@@ -15,7 +15,7 @@
   },
   "hero": {
     "headline": "The Sanders Law Firm of South Carolina LLC",
-    "subheadline": "76+ Years of combined legal experience helping individuals and businesses navigate the justice system",
+    "subheadline": "76+ Years of Combined Legal Experience Helping Individuals and Businesses Navigate the Justice System",
     "cta": {
       "label": "Contact Us",
       "href": "/contact"
@@ -25,21 +25,21 @@
   },
   "sections": {
     "about": {
-      "headline": "About Us",
-      "content": "Alex and Zoe Sanders have a combined 76 years of experience in practicing law. They are father and daughter who formed the firm to help people and businesses who find themselves involved in the justice system. Alex Sanders is a trial and appellate lawyer, and former state senator and college president. Zoe Sanders is a criminal, civil and regulatory lawyer with broad and in depth experience helping individuals and entities through complex issues. She has represented diverse individuals including comedian Stephen Colbert, U.S. Attorney General John Ashcroft, and is a past president of the National Association of Women Lawyers.",
+      "headline": "About Our Firm",
+      "content": "Alex and Zoe Sanders have a combined 76 years of experience in practicing law. They are father and daughter who formed the firm to help people and businesses who find themselves involved in the justice system. Alex Sanders is a trial and appellate lawyer, and former state senator and college president. Zoe Sanders is a criminal, civil and regulatory lawyer with broad and in depth experience helping individuals and entities through complex issues. She has represented diverse clients including comedian Stephen Colbert and U.S. Attorney General John Ashcroft.",
       "image": "https://plus.unsplash.com/premium_photo-1674727219372-4ba6644106bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8bGF3JTIwbGlicmFyeSUyMGJvb2tzfGVufDB8MHx8fDE3Njg5Njc2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "values": [
         {
           "title": "76+ Years Combined Experience",
-          "description": "Father and daughter team with extensive legal expertise"
+          "description": "Father-daughter team with extensive legal expertise"
         },
         {
           "title": "Diverse Practice Areas",
           "description": "Criminal defense, civil litigation, business law, and regulatory matters"
         },
         {
-          "title": "High-Profile Representation",
-          "description": "Representing individuals from all walks of life with complex legal issues"
+          "title": "High-Profile Experience",
+          "description": "Represented notable clients and appeared before Supreme Court"
         }
       ]
     },
@@ -57,7 +57,16 @@
     }
   },
   "navigation": {
-    "items": [],
+    "items": [
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
     "ctaButton": {
       "label": "Contact Us",
       "href": "/contact"
@@ -72,13 +81,5 @@
   "seo": {
     "title": "The Sanders Law Firm LLC - Columbia, South Carolina",
     "description": "76+ Years of law experience. Our goal at Sanders Law Firm is to help individuals and businesses who find themselves in the justice system. Learn how we can help."
-  },
-  "resources": [
-    {
-      "title": "Contact Us",
-      "description": "Reach out to discuss your legal needs with our experienced team.",
-      "href": "/contact",
-      "cta": "Get in touch"
-    }
-  ]
+  }
 }
