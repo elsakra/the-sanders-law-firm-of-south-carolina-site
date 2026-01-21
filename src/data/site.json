@@ -25,21 +25,21 @@
   },
   "sections": {
     "about": {
-      "headline": "About Our Firm",
+      "headline": "About Us",
       "content": "Alex and Zoe Sanders have a combined 76 years of experience in practicing law. They are father and daughter. They formed the firm to help people and businesses who find themselves involved in the justice system. Alex Sanders is a trial and appellate lawyer, and former state senator and college president. Zoe Sanders is a criminal, civil and regulatory lawyer with broad and in depth experience helping individuals and entities through complex issues.",
       "image": "https://res.cloudinary.com/dil14r8je/image/upload/v1768990597/auto-site-builder/The%20Sanders%20Law%20Firm%20of%20South%20Carolina/image_5.jpg",
       "values": [
         {
           "title": "76+ Years Combined Experience",
-          "description": "Father-daughter team with extensive legal expertise"
+          "description": "Father and daughter team with extensive legal expertise"
         },
         {
-          "title": "Diverse Practice Areas",
-          "description": "From criminal defense to business law and ERISA claims"
+          "title": "Diverse Representation",
+          "description": "From high-profile clients to individuals seeking justice"
         },
         {
-          "title": "Notable Clients",
-          "description": "Represented high-profile clients including Stephen Colbert and U.S. Attorney General John Ashcroft"
+          "title": "Comprehensive Legal Services",
+          "description": "Criminal, civil, regulatory, and business law expertise"
         }
       ]
     },

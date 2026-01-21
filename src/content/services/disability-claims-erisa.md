@@ -8,4 +8,4 @@ image: "https://res.cloudinary.com/dil14r8je/image/upload/v1768990597/auto-site-
 order: 1
 ---
 
-Representation of individuals who have been denied disability benefits governed by an employee disability plan
+Represents individuals who have been denied disability benefits governed by an employee disability plan
